@@ -7,7 +7,7 @@ Copyright:	GPL
 Group:		Applications/Networking
 Group(pl):	Aplikacje/Sieciowe
 Source0:	ftp://ftp.nikhef.nl/pub/network/%{name}_%{version}.tar.Z
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
         'vrfy' is a tool to verify email addresses and mailing lists.
