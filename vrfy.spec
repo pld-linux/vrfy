@@ -41,8 +41,8 @@ szczegó³ów znajdziesz w dokumentacji.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-install -d   $RPM_BUILD_ROOT/%{_bindir}
-install vrfy $RPM_BUILD_ROOT/%{_bindir}/vrfy
+install -d   $RPM_BUILD_ROOT%{_bindir}
+install vrfy $RPM_BUILD_ROOT%{_bindir}/vrfy
 
 %clean
 rm -rf $RPM_BUILD_ROOT
