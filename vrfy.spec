@@ -32,7 +32,10 @@ szczegó³ów znajdziesz w dokumentacji.
 %setup -q -c %{name}
 
 %build
-%{__make} CFLAGS="%{rpmcflags} -D_BSD_SOURCE" LDFLAGS="%{rpmldflags}"
+%{__make} \
+	CFLAGS="%{rpmcflags} -D_BSD_SOURCE" \
+	LDFLAGS="%{rpmldflags}" \
+	CC="%{__cc}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
