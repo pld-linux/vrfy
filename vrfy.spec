@@ -27,7 +27,8 @@ access. See the man page and the extensive documentation in the source
 for further details.
 
 %description -l pl
-'vrfy' to narzêdzie s³u¿±ce weryfikacji adresów pocztowych.
+'vrfy' to narzêdzie s³u¿±ce weryfikacji adresów pocztowych. Wiêcej
+szczegó³ów znajdziesz w dokumentacji.
 
 %prep
 %setup -q -c %{name}
