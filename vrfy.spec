@@ -47,7 +47,3 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(640,root,root,755)
 %attr(755,root,root)%{_bindir}/vrfy
-
-%changelog
-* Fri May 28 1999 Arkadiusz Mi¶kiewicz <misiek@pld.org.pl>
-- initial version  
