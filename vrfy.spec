@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Networking
 Source0:	ftp://ftp.nikhef.nl/pub/network/%{name}_%{version}.tar.Z
+# Source0-md5:	57144a8dc9b877f31b86c95d5152425f
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
