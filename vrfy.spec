@@ -33,7 +33,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %setup -q -c %{name}
 
 %build
-make CFLAGS="$RPM_OPT_FLAGS -D_BSD_SOURCE" LDFLAGS="-s"
+%{__make} CFLAGS="$RPM_OPT_FLAGS -D_BSD_SOURCE" LDFLAGS="-s"
 
 %install
 rm -rf $RPM_BUILD_ROOT
