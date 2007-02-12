@@ -1,5 +1,5 @@
 Summary:	vrfy - a tool to verify email addresses and mailing lists
-Summary(pl):	vrfy - narzêdzie s³u¿±ce do weryfikacji adresów pocztowych
+Summary(pl.UTF-8):   vrfy - narzÄ™dzie sÅ‚uÅ¼Ä…ce do weryfikacji adresÃ³w pocztowych
 Name:		vrfy
 Version:	990522
 Release:	1
@@ -25,22 +25,22 @@ pretty well. Needless to say you need Internet (nameserver and SMTP)
 access. See the man page and the extensive documentation in the source
 for further details.
 
-%description -l pl
-'vrfy' to narzêdzie s³u¿±ce weryfikacji adresów e-mail i list
+%description -l pl.UTF-8
+'vrfy' to narzÄ™dzie sÅ‚uÅ¼Ä…ce weryfikacji adresÃ³w e-mail i list
 mailowych. W najprostszej formie przyjmuje adres w postaci
-"u¿ytkownik@domena", sprawdza hosty MX dla "domeny" i wysy³a polecenie
-SMTP VRFY do g³ównego hosta MX (opcjonalnie do wszystkich) lub samej
-"domeny", je¶li nie istnieje wpis MX. Bez "domeny" ³±czy siê z hostem
-"localhost". Bardziej zaawansowane mo¿liwo¶ci to: rekurencyjne
-rozwi±zywanie plików forward i list mailowych oraz wykrywanie pêtli
-przekazywania poczty. Rozumiana jest pe³na specyfikacja adresów
-RFC822. Kontrola sk³adni mo¿e byæ przeprowadzana lokalnie lub zdalnie.
-Dostêpne s± ró¿ne opcje do wykorzystywania w razie potrzeby
-alternatywnych protoko³ów i wypisywania ró¿nych postaci obszernego
-wyj¶cia. Istniej± oczywiste ograniczenia, ale przewa¿nie narzêdzie
-dzia³a w miarê dobrze. Oczywi¶cie wymagane jest ³±cze do Internetu
-(serwera nazw i SMTP). Wiêcej szczegó³ów na stronie manuala oraz w
-obszernej dokumentacji w kodzie ¼ród³owym.
+"uÅ¼ytkownik@domena", sprawdza hosty MX dla "domeny" i wysyÅ‚a polecenie
+SMTP VRFY do gÅ‚Ã³wnego hosta MX (opcjonalnie do wszystkich) lub samej
+"domeny", jeÅ›li nie istnieje wpis MX. Bez "domeny" Å‚Ä…czy siÄ™ z hostem
+"localhost". Bardziej zaawansowane moÅ¼liwoÅ›ci to: rekurencyjne
+rozwiÄ…zywanie plikÃ³w forward i list mailowych oraz wykrywanie pÄ™tli
+przekazywania poczty. Rozumiana jest peÅ‚na specyfikacja adresÃ³w
+RFC822. Kontrola skÅ‚adni moÅ¼e byÄ‡ przeprowadzana lokalnie lub zdalnie.
+DostÄ™pne sÄ… rÃ³Å¼ne opcje do wykorzystywania w razie potrzeby
+alternatywnych protokoÅ‚Ã³w i wypisywania rÃ³Å¼nych postaci obszernego
+wyjÅ›cia. IstniejÄ… oczywiste ograniczenia, ale przewaÅ¼nie narzÄ™dzie
+dziaÅ‚a w miarÄ™ dobrze. OczywiÅ›cie wymagane jest Å‚Ä…cze do Internetu
+(serwera nazw i SMTP). WiÄ™cej szczegÃ³Å‚Ã³w na stronie manuala oraz w
+obszernej dokumentacji w kodzie ÅºrÃ³dÅ‚owym.
 
 %prep
 %setup -q -c %{name}
