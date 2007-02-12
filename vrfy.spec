@@ -1,5 +1,5 @@
 Summary:	vrfy - a tool to verify email addresses and mailing lists
-Summary(pl.UTF-8):   vrfy - narzędzie służące do weryfikacji adresów pocztowych
+Summary(pl.UTF-8):	vrfy - narzędzie służące do weryfikacji adresów pocztowych
 Name:		vrfy
 Version:	990522
 Release:	1
